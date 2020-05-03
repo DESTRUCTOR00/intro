@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<!-- ------------------------------------- SITE-TOP -------------------------------------- -->
+    <div style="display: inline-flex;height : 40px; background-color: rgba(255, 255, 255, 0.979);" class="container-fluid" >
+        <p class="ml-3"><i class="fas fa-mobile-alt"></i> +91-9650xxxxxx | <i class="far fa-envelope"></i> thedeepanshuxxxxxxxx@gmail.com</p>
+        <div class="ml-auto mr-3">
+            <a href=""><i class="fab fa-twitter mr-1"></i></a> 
+            <a href=""><i class="fab fa-youtube mr-1" style="color: red;"></i></a>
+            <a href=""><i class="fab fa-facebook mr-1" style="color: blue;"></i></a>
+            <a href=""><i class="fab fa-linkedin mr-1"></i></a>
+        </div>
+    </div>
+<!-- ------------------------------------------NAVIGATION BAR------------------------------ -->
+<nav class="navbar sticky-top navbar-expand-md navbar-light" style="background-color: rgba(4, 169, 245, 0.712);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="circle-cropped.png" height="50" width="50"> DEEPANSHU</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="nav navbar-nav dropdown mr-auto">
+                
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <!-- --------------------------- SKILLS DROPDOWN ------------------------------------ -->
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Skills</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="">Html</a>
+                        <a class="dropdown-item" href="">CSS</a>
+                        <a class="dropdown-item" href="">JavaScript</a>
+                        <a class="dropdown-item" href="">Python</a>
+                        <a class="dropdown-item" href="">C</a>
+                        <a class="dropdown-item" href="">jQuery</a>
+                        <a href=""></a>
+                    </div>   
+                </li>
+            <!-- -------------------------- EDUCATION DROPDOWN ------------------------------ -->
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Education</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">BTech</a></li>
+                        <li><a  class="dropdown-item" href="">12<sup>th</sup></a></li>
+                        <li><a  class="dropdown-item" href="">10<sup>th</sup></a></li>
+                    </ul>
+                </li>
+            <!-- ------------------------------HOBBIES DROPDOWN ----------------------------- -->
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hobbies</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">Volleyball</a></li>
+                        <li><a class="dropdown-item" href="">Listening Music</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-phone"></i> Services</a></li>
+            </ul>
+            
+            <form class="form-inline ml-auto">
+                <input type="search" class="form-control mr-2" placeholder="Search">
+                <button type="button" class="btn btn-outline-danger" >Search</button>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- -------------------------------------CAROUSEL------------------------------------- -->
+<div class="container align-content-center">
+    <div id="myslide" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#myslide" data-slide-to="0"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="max-height: 500px;" class="w-100" src="10.jpg">
+            </div>
+            <div class="carousel-item">
+                <img style="max-height: 500px;" class="w-100" src="11.jpg">
+            </div>
+            <div class="carousel-item">
+                <img style="max-height: 500px;" class="w-100" src="12.jpg">
+            </div>
+        </div>
+    </div>
+    <a href="#myslide" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a href="#myslide" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- ------------------------------JUMBOTRON---------------------------------------------------------------- -->
+<div class="container-fluid">
+    <div class="Jumbotron bg-light">
+        <h2 class="text-center" style="font-family: algerian;"><u> DEEPANSHU AGGARWAL</u></h2>
+        <h5 class="text-center text-muted">Front-End Developer</h5>
+        <br>
+        <p class="text-center">My Name is Deepanshu Aggarwal. I want to be a Front-End Developer. Sklils that I have used to create this website are HTML, CSS and Bootstrap.</p>
+        <div class="text-center my-2">
+            <button class="btn btn-danger" type="button"> More Info <i class="fa fa-arrow-right"></i></button>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------- CARDS ------------------------------------------------------------------------ -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+                <div class="card-body align-content-center">
+                    <img class="card-img img-thumbnail" style="height: 200px; width: 200px;" src="download (1).png">
+                    <h3 class="card-title"><i class="fab fa-cuttlefish"></i> C++</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum, magnam repellat ex sit quos! Fuga doloremque asperiores iste tempore?</p>
+                    <button class="btn btn-danger" type="button">Let's Go &raquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+                <div class="card-body align-content-center">
+                    <img class="card-img img-thumbnail" style="height: 200px; width: 200px;" src="unnamed (1).png">
+                    <h3 class="card-title"><i class="fab fa-python"></i> Python</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum, magnam repellat ex sit quos! Fuga doloremque asperiores iste tempore?</p>
+                    <button class="btn btn-danger" type="button">Let's Go &raquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+                <div class="card-body align-content-center">
+                    <img class="card-img img-thumbnail" style="height: 200px; width: 200px;" src="html.png">
+                    <h3 class="card-title"><i class="fab fa-html5"></i> Html5</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum, magnam repellat ex sit quos! Fuga doloremque asperiores iste tempore?</p>
+                    <button class="btn btn-danger" type="button">Let's Go &raquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+            <div class="card">
+                <div class="card-body align-content-center">
+                    <img class="card-img img-thumbnail" style="height: 200px; width: 200px;" src="javascript.png">
+                    <h3 class="card-title"><i class="fab fa-js-square"></i> JavaScript</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum, magnam repellat ex sit quos! Fuga doloremque asperiores iste tempore?</p>
+                    <button class="btn btn-danger" type="button">Let's Go &raquo;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------ACHIEVEMENT AND INTERNSHIP BOX---------------------------------------- -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8 bg-danger">
+            <div style="padding: 20px;">
+                <h3 style="font-family: cursive;color:white;"><u> Internship <i class="fas fa-pencil-alt"></i> </u></h3>
+                <br>
+                <p class="text-white" style="font-family: arial;font-size:16px;"> I did Internship at BRPL,Kailash Puri in Maintainance and Operation of Substation under Mr. Raj Vijay Sir. </p>
+            </div>
+        </div>
+        <div class="col-4 bg-dark">
+            <div style="padding: 20px;">
+                <h3 style="font-family: cursive;color:white;"><u> Achievement <i class="fa fa-trophy"></i> </u></h3>
+                <br>
+                <p class="text-white" style="font-family: arial;font-size:16px;">
+                    <i class="fas fa-star"></i> I got first Rank in Cyber Olympiad 2015. <br>
+                    <i class="fas fa-star"></i> I got second Rank in Maths Olympiad 2014.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------SECOND LAST FOOTER--------------------------------------- -->
+<div class="container-fluid" style="background-color: black;">
+    <div class="row">
+        <div class="col-md-3" style="margin: 10px;border-right: 2px red dotted;">
+            <i style="color: red;size:2x;" class="fas fa-ellipsis-h"></i>
+            <h5 style="color: white;font-family:Geneva, Tahoma, sans-serif;">My Skills</h5>
+            <br>
+            <ul style="list-style-type: none;">
+               <li><a style="text-decoration: none;color :white;" href="#"><i class="fab fa-html5"></i> Html</a></li> 
+               <div class="dropdown-divider"></div>
+               <li><a style="text-decoration: none;color : white" href="#"><i class="fab fa-css3-alt"></i> CSS</a></li> 
+               <div class="dropdown-divider"></div>
+               <li><a style="text-decoration: none;color : white" href="#"><i class="fab fa-python"></i> Python</a></li> 
+               <div class="dropdown-divider"></div>
+               <li><a style="text-decoration: none;color : white" href="#"><i class="fas fa-laptop-code"></i> C</a></li> 
+               <div class="dropdown-divider"></div>
+               <li><a style="text-decoration: none;color : white" href="#"><i class="fab fa-btc"></i> Bootstrap</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3" style="margin: 10px;border-right: 2px red dotted;">
+            <i style="color: red;size:3x;" class="fas fa-ellipsis-h"></i>
+            <br>
+            <h5 style="color: white;font-family:Geneva, Tahoma, sans-serif;">Find Me On Discord</h5>
+            <iframe src="https://discordapp.com/widget?id=464045926789414912&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+        <div class="col-md-2" style="margin: 10px;border-right: 2px red dotted;">
+            <i style="color: red;size:3x;" class="fas fa-ellipsis-h"></i>
+            <br>
+            <h5 style="color: white;font-family:Geneva, Tahoma, sans-serif;">Tag Cloud</h5>
+            <br>
+            <button class="btn btn-outline-dark">Skills</button>
+            <button class="btn btn-outline-dark">Internship</button><br><br>
+            <button class="btn btn-outline-dark">Achievement</button>
+            <button class="btn btn-outline-dark">Info</button>
+        </div>
+        <div class="col-md-3" style="margin: 10px;">
+            <i style="color: red;size:3x;" class="fas fa-ellipsis-h"></i>
+            <br>
+            <h5 style="color: white;font-family:Geneva, Tahoma, sans-serif;">Contact Me</h5>
+            <br>
+            <br>
+            <h3 class="text-center text-white"><i class="fa fa-phone" aria-hidden="true"></i> Phone Number : </h3>
+            <h5 class="text-center text-white"> +91-9650xxxxxx</h5>
+            <br>
+            <h5></h5>  
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------FOOTER---------------------------------------------- -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12" style="background-color: rgb(56, 55, 55);">
+            <div style="margin: 10px;display: inline-flex;">
+                <p style="color: white;"> &copy; Copyright Reserved Since 2020</p>
+                <div class="ml-5" style="color: white;">
+                    <p>Made By : <img src="dd.png" height="25" width="25"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="jQuery/jquery.js"></script>
+<script src="popper.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+</html>
